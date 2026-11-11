@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Đặt Cơm Chưa? - Mở Hòm Ăn Trưa CS2</title>
+  <meta name="description" content="Trang quay số chọn món ăn trưa ngẫu nhiên phong cách mở hòm Counter-Strike, nhẹ, mượt và không thư viện cồng kềnh.">
+  
+  <!-- CS Tactical Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Top Header -->
+    <header>
+      <div class="logo-area">
+        <div class="logo-icon">📦</div>
+        <div class="logo-text">
+          <h1>ĐẶT CƠM CHƯA?</h1>
+        </div>
+      </div>
+
+      <div class="header-controls">
+        <button id="audioToggleBtn" class="icon-btn" title="Bật/Tắt âm thanh">🔊</button>
+        <button id="themeToggleBtn" class="icon-btn" title="Chuyển giao diện Sáng/Tối">☀️</button>
+      </div>
+    </header>
+
+    <!-- Filters Section -->
+    <section class="filters-panel">
+      <div class="filters-header">
+        <h3><span>⚡</span> Bộ lọc khẩu vị & dị ứng</h3>
+        <span id="foodCount" class="food-count-badge">Đang tải danh sách...</span>
+      </div>
+
+      <!-- Select with Search: Lọc món ăn cụ thể khỏi danh sách -->
+      <div class="custom-select-wrapper" id="customSelectWrapper">
+        <div class="custom-select-input-container">
+          <span class="select-search-icon">🔍</span>
+          <input 
+            type="text" 
+            id="foodSearchInput" 
+            class="select-search-input" 
+            placeholder="Lọc món ăn khỏi danh sách"
+            autocomplete="off"
+            spellcheck="false"
+          >
+          <button id="clearSearchBtn" class="clear-search-btn" title="Xóa tìm kiếm" aria-label="Xóa tìm kiếm">✕</button>
+          <span class="dropdown-arrow">▼</span>
+        </div>
+
+        <!-- Dropdown Menu -->
+        <div id="foodDropdownList" class="select-dropdown-menu">
+          <!-- Rendered dynamically -->
+        </div>
+
+        <!-- Excluded Food Chips -->
+        <div id="excludedChipsList" class="excluded-chips-list">
+          <!-- Rendered dynamically -->
+        </div>
+      </div>
+
+      <div id="tagList" class="tag-list">
+        <!-- Rendered by app.js -->
+      </div>
+      <div class="filters-note">
+        * Nhấn vào thẻ để loại trừ món bạn hoặc đồng nghiệp không ăn được. Lựa chọn được tự động lưu cho lần sau.
+      </div>
+    </section>
+
+    <!-- CS Case Roulette Machine -->
+    <main class="roulette-wrapper">
+      <div class="case-title-bar">
+        <h2>HÒM ĂN TRƯA CÔNG SỞ</h2>
+        <p>Bấm Mở Hòm hoặc phím Space để quay ngẫu nhiên món trưa hôm nay</p>
+      </div>
+
+      <!-- Roulette Viewport -->
+      <div id="rouletteViewport" class="roulette-viewport">
+        <!-- Center Needle Indicator -->
+        <div class="center-indicator"></div>
+        <!-- Shadow Vignettes -->
+        <div class="roulette-vignette-left"></div>
+        <div class="roulette-vignette-right"></div>
+        <!-- Rolling Strip -->
+        <div id="rouletteStrip" class="roulette-strip"></div>
+      </div>
+
+      <!-- Controls -->
+      <div class="controls-area">
+        <button id="spinBtn" class="spin-btn">
+          <span>🎲</span> MỞ HÒM (QUAY)
+        </button>
+      </div>
+    </main>
+
+    <!-- History Bar -->
+    <section class="history-section">
+      <div class="history-header">
+        <h3><span>🕒</span> Lịch sử mở gần đây</h3>
+        <button id="clearHistoryBtn" class="clear-history-btn">Xóa lịch sử</button>
+      </div>
+      <div id="historyList" class="history-list">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+    <!-- Rarity Legend -->
+    <section class="legend-panel">
+      <div class="legend-header"><span>🏆</span> Phẩm cấp món ăn & Xác suất</div>
+      <div id="legendGrid" class="legend-grid">
+        <!-- Rendered by app.js -->
+      </div>
+    </section>
+
+
+  </div>
+
+  <!-- Win Result Popup Modal -->
+  <div id="resultModalBackdrop" class="result-modal-backdrop">
+    <div class="result-modal">
+      <div id="modalRarity" class="modal-badge">Mil-Spec Grade</div>
+      <div id="modalEmoji" class="modal-emoji">🍜</div>
+      <h2 id="modalTitle" class="modal-title">Phở bò tái lăn</h2>
+      <p id="modalDesc" class="modal-desc">Nước dùng thơm phức mùi hoa hồi thảo quả, thịt bò xào lăn đậm đà nóng hổi.</p>
+      
+      <div class="modal-buttons">
+        <button id="modalRerollBtn" class="modal-btn modal-btn-reroll">🔄 Quay Lại</button>
+        <button id="modalConfirmBtn" class="modal-btn modal-btn-confirm">✅ Chốt Món Này</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="audio.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

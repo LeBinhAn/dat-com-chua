@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "name": "Cơm bình dân (Cơm bụi)",
+    "emoji": "🍱",
+    "rarity": "consumer",
+    "description": "Ngon bổ rẻ, tự chọn 3-4 món, cứu cánh ví tiền cuối tháng.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 2,
+    "name": "Bánh mì pate trứng",
+    "emoji": "🥖",
+    "rarity": "consumer",
+    "description": "Nhanh gọn lẹ, vỏ giòn rụm, kinh điển cho mọi bữa ăn.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 3,
+    "name": "Xôi xéo hành phi ruốc",
+    "emoji": "🍚",
+    "rarity": "consumer",
+    "description": "Dẻo thơm mùi nếp và đỗ xanh bùi bùi, no căng cả buổi.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 4,
+    "name": "Mì tôm trứng xúc xích",
+    "emoji": "🍜",
+    "rarity": "consumer",
+    "description": "Món ăn quốc dân khi lười hoặc bận rộn chạy deadline.",
+    "tags": ["khong_chay", "thit_lon", "mon_cay"]
+  },
+  {
+    "id": 5,
+    "name": "Bánh bao nhân thịt trứng cút",
+    "emoji": "🥟",
+    "rarity": "consumer",
+    "description": "Nóng hổi vừa thổi vừa ăn, cứu đói siêu tốc.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 6,
+    "name": "Cơm rang dưa bò",
+    "emoji": "🍳",
+    "rarity": "industrial",
+    "description": "Hạt cơm săn vàng óng, dưa chua giòn sần sật quyện thịt bò mềm.",
+    "tags": ["khong_chay", "thit_bo"]
+  },
+  {
+    "id": 7,
+    "name": "Bún chả Hà Nội",
+    "emoji": "🥓",
+    "rarity": "industrial",
+    "description": "Chả nướng than hoa thơm lừng, nước mắm đu đủ tỏi ớt chua ngọt.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 8,
+    "name": "Bún thịt nướng chả giò",
+    "emoji": "🥗",
+    "rarity": "industrial",
+    "description": "Thịt ướp đậm đà, chả giò giòn tan cùng đậu phộng và mỡ hành.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 9,
+    "name": "Cơm tấm sườn bì chả",
+    "emoji": "🍛",
+    "rarity": "industrial",
+    "description": "Miếng sườn cốt lết nướng mật ong óng ả, nước mắm kẹo tê tái.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 10,
+    "name": "Hủ tiếu Nam Vang",
+    "emoji": "🍲",
+    "rarity": "industrial",
+    "description": "Sợi hủ tiếu dai dai, tôm tươi, thịt bằm và trứng cút bùi ngậy.",
+    "tags": ["khong_chay", "thit_lon", "hai_san"]
+  },
+  {
+    "id": 11,
+    "name": "Bún cá chấm giòn cay",
+    "emoji": "🐟",
+    "rarity": "industrial",
+    "description": "Cá rô chiên giòn rụm chấm nước mắm gừng ớt chua cay đã miệng.",
+    "tags": ["khong_chay", "hai_san", "mon_cay"]
+  },
+  {
+    "id": 12,
+    "name": "Bánh cuốn chả quế nóng",
+    "emoji": "🥟",
+    "rarity": "industrial",
+    "description": "Bánh mỏng mướt tráng tay, mộc nhĩ giòn ngọt chấm nước chấm ấm.",
+    "tags": ["khong_chay", "thit_lon"]
+  },
+  {
+    "id": 13,
+    "name": "Bún riêu cua bắp bò",
+    "emoji": "🦀",
+    "rarity": "industrial",
+    "description": "Nước dùng chua thanh vị giấm bỗng, riêu cua béo mềm ngập ngụa.",
+    "tags": ["khong_chay", "hai_san", "thit_bo"]
+  },
+  {
+    "id": 14,
+    "name": "Cơm gà xối mỡ giòn da",
+    "emoji": "🍗",
+    "rarity": "industrial",
+    "description": "Đùi gà da giòn rụm sốt tương tỏi ớt, cơm chiên đỏ cam bắt mắt.",
+    "tags": ["khong_chay"]
+  },
+  {
+    "id": 15,
+    "name": "Phở bò tái nạm gầu",
+    "emoji": "🍜",
+    "rarity": "milspec",
+    "description": "Nước dùng ninh xương ống ngọt thanh, hoa hồi thảo quả thơm nức mũi.",
+    "tags": ["khong_chay", "thit_bo"]
+  },
+  {
+    "id": 16,
+    "name": "Bún bò Huế đầy đủ",
+    "emoji": "🌶️",
+    "rarity": "milspec",
+    "description": "Sợi bún to, chả cua, nạm bò và nước lèo dậy mùi sả ớt nồng nàn.",
+    "tags": ["khong_chay", "thit_bo", "thit_lon", "mon_cay"]
+  },
+  {
+    "id": 17,
+    "name": "Bún đậu mắm tôm thập cẩm",
+    "emoji": "🥢",
+    "rarity": "milspec",
+    "description": "Đậu mơ chiên giòn, chả cốm dẻo, dồi rán và chén mắm tôm đánh sủi bọt.",
+    "tags": ["khong_chay", "thit_lon", "hai_san"]
+  },
+  {
+    "id": 18,
+    "name": "Cơm thố xá xíu bò tiêu đen",
+    "emoji": "🍲",
+    "rarity": "milspec",
+    "description": "Thố đất giữ nhiệt nóng hổi, thịt xào sốt tiêu cay nhẹ thơm phức.",
+    "tags": ["khong_chay", "thit_bo", "thit_lon", "mon_cay"]
+  },
+  {
+    "id": 19,
+    "name": "Gimbap bò Bulgogi & Kim chi",
+    "emoji": "🍙",
+    "rarity": "milspec",
+    "description": "Cơm cuộn rong biển chuẩn vị Hàn Quốc, nhân bò xào và củ cải muối giòn.",
+    "tags": ["khong_chay", "thit_bo", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 20,
+    "name": "Tacos bò phô mai kiểu Mexico",
+    "emoji": "🌮",
+    "rarity": "milspec",
+    "description": "Vỏ bánh giòn rụm ngập sốt salsa, thịt bò băm và phô mai kéo sợi.",
+    "tags": ["khong_chay", "thit_bo", "mon_cay", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 21,
+    "name": "Mì cay Hàn Quốc hải sản",
+    "emoji": "🥘",
+    "rarity": "milspec",
+    "description": "Nồi mì cay xé lưỡi cấp độ tùy chọn với tôm, mực, chả cá và kim chi.",
+    "tags": ["khong_chay", "hai_san", "mon_cay", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 22,
+    "name": "Cơm niêu cá kho tộ",
+    "emoji": "🍚",
+    "rarity": "milspec",
+    "description": "Cơm cháy đáy niêu giòn rụm quyện nước sốt cá kho tiêu đậm đà.",
+    "tags": ["khong_chay", "hai_san"]
+  },
+  {
+    "id": 23,
+    "name": "Pad Thái tôm tươi trứng lòng đào",
+    "emoji": "🍤",
+    "rarity": "milspec",
+    "description": "Hủ tiếu xào me chua ngọt chuẩn vị đường phố Bangkok, đậu phộng rang bùi.",
+    "tags": ["khong_chay", "hai_san", "mon_nuoc_ngoai", "mon_cay"]
+  },
+  {
+    "id": 24,
+    "name": "Bánh canh ghẹ bột lọc",
+    "emoji": "🍲",
+    "rarity": "restricted",
+    "description": "Nước súp sền sệt ngọt lịm từ ghẹ tươi nguyên con, sợi bánh canh dẻo quánh.",
+    "tags": ["khong_chay", "hai_san"]
+  },
+  {
+    "id": 25,
+    "name": "Mì Ý sốt bò băm phô mai Parmesan",
+    "emoji": "🍝",
+    "rarity": "restricted",
+    "description": "Spaghetti Bolognese sốt cà chua thịt bò đậm đà phong vị nước Ý.",
+    "tags": ["khong_chay", "thit_bo", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 26,
+    "name": "Chả cá Lã Vọng Hà Thành",
+    "emoji": "🍳",
+    "rarity": "restricted",
+    "description": "Cá lăng nghệ chiên vàng thơm ngát thì là, hành hoa và bún tươi.",
+    "tags": ["khong_chay", "hai_san"]
+  },
+  {
+    "id": 27,
+    "name": "Lẩu Thái Tomyum hải sản mini",
+    "emoji": "🍲",
+    "rarity": "restricted",
+    "description": "Chua cay béo ngậy nước cốt dừa, lá chanh và ngập tràn mực, tôm, ngao.",
+    "tags": ["khong_chay", "hai_san", "mon_cay", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 28,
+    "name": "Cơm lươn Nhật Bản nướng Unagi",
+    "emoji": "🍱",
+    "rarity": "restricted",
+    "description": "Lươn nướng sốt teriyaki bóng bẩy tan chảy trên lớp cơm trắng dẻo.",
+    "tags": ["khong_chay", "hai_san", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 29,
+    "name": "Bò bít tết né trứng ốp la xúc xích",
+    "emoji": "🥩",
+    "rarity": "restricted",
+    "description": "Chảo gang xèo xèo sốt tiêu đen hoặc sốt bơ tỏi, chấm bánh mì cực cuốn.",
+    "tags": ["khong_chay", "thit_bo", "thit_lon"]
+  },
+  {
+    "id": 30,
+    "name": "Buffet Sashimi & Sushi cá hồi thượng hạng",
+    "emoji": "🍣",
+    "rarity": "classified",
+    "description": "Miếng cá hồi tươi rói béo ngậy, nhâm nhi cùng wasabi cay xộc lên mũi.",
+    "tags": ["khong_chay", "hai_san", "mon_cay", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 31,
+    "name": "Bò Wagyu nướng than hoa thượng phẩm",
+    "emoji": "🥩",
+    "rarity": "classified",
+    "description": "Vân mỡ cẩm thạch tuyệt mĩ, thịt mềm như bơ tan ngay trong miệng.",
+    "tags": ["khong_chay", "thit_bo", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 32,
+    "name": "Hải sản Hoàng gia sốt bơ tỏi Cajun",
+    "emoji": "🦞",
+    "rarity": "classified",
+    "description": "Tôm hùm, cua hoàng đế sốt Cajun thơm bơ cay nồng béo ngậy kiểu Mỹ.",
+    "tags": ["khong_chay", "hai_san", "mon_cay", "mon_nuoc_ngoai"]
+  },
+  {
+    "id": 33,
+    "name": "Cơm chay thanh đạm sen dừa",
+    "emoji": "🥗",
+    "rarity": "consumer",
+    "description": "Hạt sen bùi thơm, nấm kho tiêu và đậu phụ sốt cà chua thanh nhẹ nhẹ bụng.",
+    "tags": ["chay"]
+  },
+  {
+    "id": 34,
+    "name": "Bún nấm chay chua cay",
+    "emoji": "🍄",
+    "rarity": "industrial",
+    "description": "Nước dùng rau củ quả ninh ngọt tự nhiên cùng các loại nấm đùi gà, kim châm.",
+    "tags": ["chay", "mon_cay"]
+  },
+  {
+    "id": 35,
+    "name": "Phở cuốn rau củ nấm đùi gà",
+    "emoji": "🥬",
+    "rarity": "milspec",
+    "description": "Bánh phở tươi cuộn rau sống thơm mát, nấm xào thơm chấm nước tương mè.",
+    "tags": ["chay"]
+  },
+  {
+    "id": 36,
+    "name": "Pizza phô mai nướng củi kiểu Ý",
+    "emoji": "🍕",
+    "rarity": "restricted",
+    "description": "Đế bánh ủ men chậm xốp nhẹ, phô mai Mozzarella kéo sợi thơm lừng.",
+    "tags": ["chay", "mon_nuoc_ngoai"]
+  }
+]
